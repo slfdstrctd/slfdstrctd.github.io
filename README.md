@@ -1,8 +1,8 @@
-### Hi there 👋
+<!--### Hi there 👋
 
 My name is Artem. I'm studying at Saint Petersburg State University in Russia.
 
-<!-- ### 🌱 I’m currently learning
+ ### 🌱 I’m currently learning
 - The art of modern C ++ development (Yandex & MIPT course)
 -->
 ### 📫 How to reach me
