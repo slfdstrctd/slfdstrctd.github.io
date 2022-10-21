@@ -1,0 +1,15 @@
+[submodule "themes/lynx"]
+	path = themes/lynx
+	url = https://github.com/jpanther/lynx
+[submodule "themes/pulp"]
+	path = themes/pulp
+	url = https://github.com/koirand/pulp.git
+[submodule "themes/nix"]
+	path = themes/nix
+	url = https://github.com/LordMathis/hugo-theme-nix.git
+[submodule "themes/paper"]
+	path = themes/paper
+	url = https://github.com/nanxiaobei/hugo-paper
+[submodule "themes/onelou"]
+	path = themes/onelou
+	url = https://github.com/jyygithub/hugo-theme-onelou.git

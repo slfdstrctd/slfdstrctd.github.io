@@ -1,0 +1,34 @@
+theme = "lynx"
+title = "Artem Ponomarenko"
+languageCode = "en"
+baseUrl = "https://slfdstrctd.github.io"
+googleAnalytics = "G-H641E5T0EM"
+photo = "profile.jpg"
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "Artem Ponomarenko"
+  headline = "Data Scientist"
+  image = "profile.jpg"
+  alternative = "Artem Ponomarenko | Data Scientist"
+  links = [
+    # { CV = { icon = 'link', href = "https://github.org", text = "View the CV" } },
+    { linkedin = "https://linkedin.com/in/slfdstrctd" },
+    { telegram = "https://twitter.com/slfdstrctd" },
+    # { twitter = "https://twitter.com/slfdstrctd" },
+    { github = "https://github.com/slfdstrctd" },
+    # { instagram = "https://instagram.com/slfdstrctd" },
+    # { email = "mailto:slfdstrctd@yandex.ru" }, 
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  keywords = "slfdstrctd,artem,ponomarenko,data,scientist,analyst,developer,profile"
+  robots = "index,follow"
