@@ -13,12 +13,10 @@ disableKinds = ["taxonomy", "term"]
   image = "profile.jpg"
   alternative = "Artem Ponomarenko | Data Scientist"
   links = [
-    # { CV = { icon = 'link', href = "https://github.org", text = "View the CV" } },
+    { CV = { icon = 'link', href = "https://github.com/slfdstrctd/slfdstrctd/blob/master/CV.pdf", text = "Curriculum vitae" } },
     { linkedin = "https://linkedin.com/in/slfdstrctd" },
     { telegram = "https://twitter.com/slfdstrctd" },
-    # { twitter = "https://twitter.com/slfdstrctd" },
     { github = "https://github.com/slfdstrctd" },
-    # { instagram = "https://instagram.com/slfdstrctd" },
     # { email = "mailto:slfdstrctd@yandex.ru" }, 
   ]
 
