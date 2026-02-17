@@ -15,7 +15,7 @@ disableKinds = ["taxonomy", "term"]
   links = [
     { CV = { icon = 'link', href = "https://github.com/slfdstrctd/slfdstrctd/blob/master/CV.pdf", text = "Curriculum vitae" } },
     { linkedin = "https://linkedin.com/in/slfdstrctd" },
-    { telegram = "https://twitter.com/slfdstrctd" },
+    { telegram = "https://t.me/selfdestructed" },
     { github = "https://github.com/slfdstrctd" },
     # { email = "mailto:slfdstrctd@yandex.ru" }, 
   ]
