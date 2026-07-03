@@ -3,21 +3,83 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Artem Ponomarenko | Data Analyst</title>
+  <title>Artem Ponomarenko — Data Analyst | Python, SQL, Big Data</title>
+  <meta name="description" content="Artem Ponomarenko — Data Analyst based in Germany. Large-scale analytics, ETL pipelines, A/B testing and statistical modeling with Python, SQL and Spark.">
+  <meta name="author" content="Artem Ponomarenko">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://slfdstrctd.github.io/">
+  <meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b1020" media="(prefers-color-scheme: dark)">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Artem Ponomarenko — Data Analyst">
+  <meta property="og:description" content="Data Analyst based in Germany. Large-scale analytics, ETL pipelines, A/B testing and statistical modeling with Python, SQL and Spark.">
+  <meta property="og:url" content="https://slfdstrctd.github.io/">
+  <meta property="og:image" content="https://slfdstrctd.github.io/og-image.jpg">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta property="og:site_name" content="Artem Ponomarenko">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Artem Ponomarenko — Data Analyst">
+  <meta name="twitter:description" content="Data Analyst based in Germany. Large-scale analytics, ETL pipelines, A/B testing and statistical modeling.">
+  <meta name="twitter:image" content="https://slfdstrctd.github.io/og-image.jpg">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Artem Ponomarenko",
+    "url": "https://slfdstrctd.github.io/",
+    "image": "https://slfdstrctd.github.io/profile.png",
+    "jobTitle": "Data Analyst",
+    "email": "mailto:aponomarenko.pro@gmail.com",
+    "address": { "@type": "PostalAddress", "addressCountry": "DE" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "ITMO University" },
+      { "@type": "CollegeOrUniversity", "name": "Saint Petersburg State University" }
+    ],
+    "knowsAbout": ["Data Analytics", "ETL Pipelines", "A/B Testing", "Statistical Modeling", "Machine Learning", "Python", "SQL", "Apache Spark"],
+    "knowsLanguage": ["en", "de", "ru"],
+    "sameAs": [
+      "https://github.com/slfdstrctd",
+      "https://linkedin.com/in/slfdstrctd",
+      "https://t.me/selfdestructed"
+    ]
+  }
+  </script>
+
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <meta name="description" content="Artem Ponomarenko — Data Analyst. Large-scale analytics, ETL pipelines, statistical modeling. Munich, Germany.">
-  <meta name="keywords" content="slfdstrctd, artem, ponomarenko, data analyst, analytics, ETL, spark, python, SQL">
+  <link rel="preload" href="./profile.png" as="image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
+  <script>
+    (function () {
+      var saved = localStorage.getItem('theme');
+      var theme = saved || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-H641E5T0EM"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-H641E5T0EM');</script>
 </head>
 <body>
+  <a class="skip-link" href="#hero">Skip to content</a>
+
+  <div class="backdrop" aria-hidden="true">
+    <div class="blob blob--1"></div>
+    <div class="blob blob--2"></div>
+    <div class="blob blob--3"></div>
+  </div>
+
   <header class="header">
-    <nav class="nav">
-      <a href="#hero" class="nav__logo" aria-label="Home"></a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#hero" class="nav__logo">slfdstrctd</a>
       <div class="nav__links">
         <a href="#skills">Skills</a>
         <a href="#experience">Experience</a>
@@ -25,19 +87,26 @@
         <a href="#education">Education</a>
         <a href="#contact">Contact</a>
       </div>
-      <a href="https://github.com/slfdstrctd/slfdstrctd/blob/master/CV.pdf" class="nav__cta" target="_blank" rel="noopener">CV</a>
+      <div class="nav__actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+          <svg class="theme-toggle__sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          <svg class="theme-toggle__moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <a href="https://github.com/slfdstrctd/slfdstrctd/blob/master/CV.pdf" class="nav__cta" target="_blank" rel="noopener">CV</a>
+      </div>
     </nav>
   </header>
 
   <main>
     <section id="hero" class="hero">
       <div class="hero__avatar-wrap">
-        <img src="./profile.jpg" alt="Artem Ponomarenko" class="hero__avatar">
+        <img src="./profile.png" alt="Portrait of Artem Ponomarenko" class="hero__avatar" width="512" height="512" fetchpriority="high">
       </div>
+      <p class="hero__badge"><span class="hero__badge-dot" aria-hidden="true"></span>Open to new opportunities</p>
       <h1 class="hero__title">Artem Ponomarenko</h1>
-      <p class="hero__intro">Data Analyst · Munich, Germany</p>
-      <p class="hero__intro">I'm experienced in <strong>large-scale analytics</strong> and <strong>ETL pipelines</strong>, turning messy data into insights that actually get used.</p>
-      <p class="hero__intro">Also I have strong background in <strong>applied math</strong> and <strong>ML</strong>. I run experiments, build forecasts, and fix data pipelines that keep breaking.</p>
+      <p class="hero__role">Data Analyst · Germany</p>
+      <p class="hero__intro">I turn messy data into insights that actually get used — <strong>large-scale analytics</strong>, <strong>ETL pipelines</strong>, and experiments at the scale of billions of records.</p>
+      <p class="hero__intro">With a background in <strong>applied math</strong> and <strong>ML</strong>, I run A/B tests, build forecasts, and fix the data pipelines that keep breaking.</p>
       <div class="hero__links">
         <a href="https://linkedin.com/in/slfdstrctd" class="link-btn" target="_blank" rel="noopener" aria-label="LinkedIn">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
@@ -51,114 +120,142 @@
         <a href="https://t.me/selfdestructed" class="link-btn" target="_blank" rel="noopener" aria-label="Telegram">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
         </a>
-        
-        
       </div>
     </section>
 
-    <section id="skills" class="section">
-      <div class="container">
-        <h2 class="section__title">Skills & Tools</h2>
-        <div class="skills__grid">
-          <div class="skill-card">
-            <span class="skill-card__icon">🐍</span>
-            <h3>Programming & ML</h3>
-            <p>Python (Pandas, Polars, Scikit-learn, CatBoost, PyTorch), SQL, R</p>
-          </div>
-          <div class="skill-card">
-            <span class="skill-card__icon">⚡</span>
-            <h3>Big Data & Pipelines</h3>
-            <p>Spark, Hadoop, YTsaurus, Airflow, dbt</p>
-          </div>
-          <div class="skill-card">
-            <span class="skill-card__icon">📊</span>
-            <h3>Analytics & BI</h3>
-            <p>A/B Testing, Statistical Modeling, Forecasting, Tableau, Superset, Redash</p>
-          </div>
-          <div class="skill-card">
-            <span class="skill-card__icon">🗄️</span>
-            <h3>Databases</h3>
-            <p>ClickHouse, PostgreSQL, Vertica, SQLAlchemy</p>
-          </div>
-          <div class="skill-card">
-            <span class="skill-card__icon">🔧</span>
-            <h3>DevOps</h3>
-            <p>Docker, Git, CI/CD, Bash</p>
-          </div>
-          <div class="skill-card">
-            <span class="skill-card__icon">🌐</span>
-            <h3>Languages</h3>
-            <p>English (C1), German (A2), Russian (Native)</p>
-          </div>
+    <section id="skills" class="section reveal">
+      <h2 class="section__title"><span aria-hidden="true">01 / </span>Skills &amp; Tools</h2>
+      <div class="skills__grid">
+        <div class="skill-card">
+          <span class="skill-card__icon" aria-hidden="true">🐍</span>
+          <h3>Programming &amp; ML</h3>
+          <ul class="tag-list">
+            <li>Python</li><li>Pandas</li><li>Polars</li><li>Scikit-learn</li><li>CatBoost</li><li>PyTorch</li><li>SQL</li><li>R</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <span class="skill-card__icon" aria-hidden="true">⚡</span>
+          <h3>Big Data &amp; Pipelines</h3>
+          <ul class="tag-list">
+            <li>Spark</li><li>Hadoop</li><li>YTsaurus</li><li>Airflow</li><li>dbt</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <span class="skill-card__icon" aria-hidden="true">📊</span>
+          <h3>Analytics &amp; BI</h3>
+          <ul class="tag-list">
+            <li>A/B Testing</li><li>Statistical Modeling</li><li>Forecasting</li><li>Tableau</li><li>Superset</li><li>Redash</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <span class="skill-card__icon" aria-hidden="true">🗄️</span>
+          <h3>Databases</h3>
+          <ul class="tag-list">
+            <li>ClickHouse</li><li>PostgreSQL</li><li>Vertica</li><li>SQLAlchemy</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <span class="skill-card__icon" aria-hidden="true">🔧</span>
+          <h3>DevOps</h3>
+          <ul class="tag-list">
+            <li>Docker</li><li>Git</li><li>CI/CD</li><li>Bash</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <span class="skill-card__icon" aria-hidden="true">🌐</span>
+          <h3>Languages</h3>
+          <ul class="tag-list">
+            <li>English (C1)</li><li>German (A2)</li><li>Russian (Native)</li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <section id="experience" class="section">
-      <div class="container">
-        <h2 class="section__title">Experience</h2>
-        <div class="card-grid">
+    <section id="experience" class="section reveal">
+      <h2 class="section__title"><span aria-hidden="true">02 / </span>Experience</h2>
+      <div class="timeline">
+        <article class="timeline__item">
+          <div class="timeline__marker" aria-hidden="true"></div>
           <div class="exp-card">
-            <h3 class="exp-card__company"><a href="https://vk.com" target="_blank" rel="noopener">VK</a></h3>
-            <p class="exp-card__role">Data Analyst · Nov 2023 – Sep 2025</p>
-            <p class="exp-card__summary">Worked on user-matching at massive scale, handled billions of nodes across platforms. Ran experiments with product and ML teams to improve ad targeting. Built a sociodemographic data mart that became the go-to source for ML and ads teams. Automated NPS reporting so nobody had to do it by hand anymore.</p>
+            <header class="exp-card__header">
+              <h3 class="exp-card__company"><a href="https://vk.com" target="_blank" rel="noopener">VK</a></h3>
+              <p class="exp-card__role">Data Analyst · Nov 2023 – Sep 2025</p>
+            </header>
+            <ul class="exp-card__points">
+              <li>Worked on user-matching at massive scale — billions of nodes across platforms.</li>
+              <li>Ran experiments with product and ML teams to improve ad targeting.</li>
+              <li>Built a sociodemographic data mart that became the go-to source for ML and ads teams.</li>
+              <li>Automated NPS reporting so nobody had to do it by hand anymore.</li>
+            </ul>
           </div>
+        </article>
+        <article class="timeline__item">
+          <div class="timeline__marker" aria-hidden="true"></div>
           <div class="exp-card">
-            <h3 class="exp-card__company"><a href="https://crpt.ru" target="_blank" rel="noopener">CRPT (Chestny Znak)</a></h3>
-            <p class="exp-card__role">Data Analyst · Sep 2022 – Nov 2023</p>
-            <p class="exp-card__summary">Built demand forecasts with Prophet that cut errors. Set up Redash + Airflow to monitor 30+ datasets and auto-fix when things broke. Sped up the slowest SQL reports by up to 40% so dashboards stopped timing out.</p>
+            <header class="exp-card__header">
+              <h3 class="exp-card__company"><a href="https://crpt.ru" target="_blank" rel="noopener">CRPT (Chestny Znak)</a></h3>
+              <p class="exp-card__role">Data Analyst · Sep 2022 – Nov 2023</p>
+            </header>
+            <ul class="exp-card__points">
+              <li>Built demand forecasts with Prophet that cut errors.</li>
+              <li>Set up Redash + Airflow to monitor 30+ datasets and auto-fix when things broke.</li>
+              <li>Sped up the slowest SQL reports by up to 40% so dashboards stopped timing out.</li>
+            </ul>
           </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <h2 class="section__title"><span aria-hidden="true">03 / </span>Projects</h2>
+      <div class="card-grid">
+        <article class="project-card">
+          <h3 class="project-card__title"><a href="https://github.com/bier-ml/lunapark" target="_blank" rel="noopener">Lunapark</a></h3>
+          <p class="project-card__desc">AI-powered CV–vacancy matcher using fine-tuned LLMs, a FastAPI backend and a Streamlit frontend for analyzing candidates and matching them to job openings.</p>
+          <ul class="tag-list tag-list--accent">
+            <li>LLM</li><li>FastAPI</li><li>Streamlit</li>
+          </ul>
+        </article>
+        <article class="project-card">
+          <h3 class="project-card__title"><a href="https://github.com/bier-ml/llm-agent-project" target="_blank" rel="noopener">IVAN</a></h3>
+          <p class="project-card__desc">Interactive Venture Analysis Network — an LLM-powered agent for financial portfolios. Tracks stocks and crypto, analyzes news with BM25, and sends recommendations via Telegram.</p>
+          <ul class="tag-list tag-list--accent">
+            <li>LLM Agents</li><li>BM25</li><li>Telegram Bot</li>
+          </ul>
+        </article>
+        <article class="project-card">
+          <h3 class="project-card__title"><a href="https://github.com/konstantgr/smatched" target="_blank" rel="noopener">SmatcheD</a></h3>
+          <p class="project-card__desc">Streamlit web app for transferring makeup from one photo to another using Stable Diffusion.</p>
+          <ul class="tag-list tag-list--accent">
+            <li>Stable Diffusion</li><li>Streamlit</li><li>Computer Vision</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section reveal">
+      <h2 class="section__title"><span aria-hidden="true">04 / </span>Education</h2>
+      <div class="edu-list">
+        <div class="edu-item">
+          <h3 class="edu-item__school">ITMO University</h3>
+          <p class="edu-item__degree">M.Sc. in Artificial Intelligence · 2023 – 2025 · Saint Petersburg</p>
+        </div>
+        <div class="edu-item">
+          <h3 class="edu-item__school">Saint Petersburg State University</h3>
+          <p class="edu-item__degree">B.Sc. in Applied Mathematics and Computer Science · 2018 – 2022 · Saint Petersburg</p>
         </div>
       </div>
     </section>
 
-    <section id="projects" class="section">
-      <div class="container">
-        <h2 class="section__title">Projects</h2>
-        <div class="card-grid" id="projects-grid">
-          <div class="project-card">
-            <h3 class="project-card__title"><a href="https://github.com/bier-ml/lunapark" target="_blank" rel="noopener">Lunapark</a></h3>
-            <p class="project-card__desc">AI-powered CV–vacancy matcher using fine-tuned LLMs, FastAPI backend and Streamlit frontend for analyzing candidates and matching them to job openings.</p>
-          </div>
-          <div class="project-card">
-            <h3 class="project-card__title"><a href="https://github.com/bier-ml/llm-agent-project" target="_blank" rel="noopener">IVAN</a></h3>
-            <p class="project-card__desc">Interactive Venture Analysis Network. LLM-powered agent that helps manage financial portfolios. It tracks stocks and crypto, analyzes news with BM25, and sends recommendations via Telegram.</p>
-          </div>
-          <div class="project-card">
-            <h3 class="project-card__title"><a href="https://github.com/konstantgr/smatched" target="_blank" rel="noopener">SmatcheD</a></h3>
-            <p class="project-card__desc">Streamlit web app for transferring makeup from one photo to another using Stable Diffusion.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="education" class="section">
-      <div class="container">
-        <h2 class="section__title">Education</h2>
-        <div class="edu-list">
-          <div class="edu-item">
-            <h3 class="edu-item__school">ITMO University</h3>
-            <p class="edu-item__degree">M.Sc. in Artificial Intelligence · 2023 – 2025 · Saint Petersburg</p>
-          </div>
-          <div class="edu-item">
-            <h3 class="edu-item__school">Saint Petersburg State University</h3>
-            <p class="edu-item__degree">B.Sc. in Applied Mathematics and Computer Science · 2018 – 2022 · Saint Petersburg</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <div class="container">
-        <h2 class="section__title">Get in touch</h2>
-        <p class="contact__text">Open to new opportunities and collaborations.</p>
-        <div class="contact__links">
-          <a href="mailto:aponomarenko.pro@gmail.com" class="contact__link">aponomarenko.pro@gmail.com</a>
-          <a href="https://linkedin.com/in/slfdstrctd" class="contact__link" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="https://t.me/selfdestructed" class="contact__link" target="_blank" rel="noopener">Telegram</a>
-          <a href="https://github.com/slfdstrctd" class="contact__link" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://github.com/slfdstrctd/slfdstrctd/blob/master/CV.pdf" class="contact__link contact__link--primary" target="_blank" rel="noopener">Curriculum Vitae</a>
-        </div>
+    <section id="contact" class="section reveal">
+      <h2 class="section__title"><span aria-hidden="true">05 / </span>Get in touch</h2>
+      <p class="contact__text">Open to new opportunities and collaborations — the fastest way to reach me is email or Telegram.</p>
+      <div class="contact__links">
+        <a href="mailto:aponomarenko.pro@gmail.com" class="contact__link">aponomarenko.pro@gmail.com</a>
+        <a href="https://linkedin.com/in/slfdstrctd" class="contact__link" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://t.me/selfdestructed" class="contact__link" target="_blank" rel="noopener">Telegram</a>
+        <a href="https://github.com/slfdstrctd" class="contact__link" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/slfdstrctd/slfdstrctd/blob/master/CV.pdf" class="contact__link contact__link--primary" target="_blank" rel="noopener">Download CV</a>
       </div>
     </section>
   </main>
@@ -171,12 +268,13 @@
         <a href="https://t.me/selfdestructed" target="_blank" rel="noopener">Telegram</a>
         <a href="mailto:aponomarenko.pro@gmail.com">Email</a>
       </div>
-      <p class="footer__copyright">© Artem Ponomarenko, Munich, 2026</p>
+      <p class="footer__copyright">© 2026 Artem Ponomarenko · Germany</p>
       <button class="footer__back" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Scroll to top">Back to top</button>
     </div>
   </footer>
 
   <script>
+    // Smooth-scroll anchors
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -184,6 +282,39 @@
         if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
     });
+
+    // Theme toggle
+    document.getElementById('theme-toggle').addEventListener('click', () => {
+      const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+
+    // Scroll-reveal
+    if (!matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (e.isIntersecting) { e.target.classList.add('reveal--visible'); io.unobserve(e.target); }
+        });
+      }, { threshold: 0.1 });
+      document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+    } else {
+      document.querySelectorAll('.reveal').forEach(el => el.classList.add('reveal--visible'));
+    }
+
+    // Highlight active section in nav
+    const navLinks = document.querySelectorAll('.nav__links a');
+    if ('IntersectionObserver' in window) {
+      const sections = [...navLinks].map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+      const spy = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            navLinks.forEach(a => a.classList.toggle('is-active', a.getAttribute('href') === '#' + e.target.id));
+          }
+        });
+      }, { rootMargin: '-40% 0px -55% 0px' });
+      sections.forEach(s => spy.observe(s));
+    }
   </script>
 </body>
 </html>
