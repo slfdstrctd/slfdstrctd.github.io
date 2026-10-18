@@ -1,0 +1,7 @@
+# Artem Ponomarenko
+
+> Artem Ponomarenko is an analytics engineer based in Berlin, Germany. Working on data pipelines, financial models, product analytics, and A/B testing.
+
+## Profile
+
+- [Full profile](https://slfdstrctd.github.io/index.md): Current work, previous experience, education, and contact links. A Markdown version generated from the visible homepage.
