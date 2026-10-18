@@ -46,4 +46,4 @@ B.Sc. in Applied Mathematics and Computer Science
 
 ## Contact
 
-[Email](mailto:aponomarenko.pro@gmail.com) [LinkedIn](https://www.linkedin.com/in/slfdstrctd/) [GitHub](https://github.com/slfdstrctd) [Telegram](https://t.me/selfdestructed)
+[Email](mailto:aponomarenko.pro@gmail.com) [LinkedIn](https://www.linkedin.com/in/slfdstrctd/) [GitHub](https://github.com/slfdstrctd) [Telegram](https://t.me/selfdestructed) [For AI](https://slfdstrctd.github.io/llms.txt)

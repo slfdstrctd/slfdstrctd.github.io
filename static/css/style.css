@@ -24,6 +24,8 @@ main, footer { width: 100%; max-width: 760px; }
 .intro h1 { font-size: 24px; line-height: 1.25; font-weight: 500; letter-spacing: -0.025em; }
 .role { margin-top: 6px; color: var(--muted); }
 .contact-links { display: flex; flex-wrap: wrap; gap: 8px 22px; align-items: baseline; }
+.contact-links .ai-link { flex-basis: 100%; margin-top: 8px; font-size: 14px; color: var(--muted); }
+.contact-links .ai-link:hover { color: var(--text); }
 .intro-copy { margin-top: 28px; }
 h1, h2, h3, p { margin: 0; font-size: 1rem; }
 h1, h2, h3 { font-weight: 400; }
